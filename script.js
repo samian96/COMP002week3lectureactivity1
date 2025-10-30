@@ -104,3 +104,16 @@ sum (2, 10);
 console.log (difference(10, 5)); // print return value
 let addTenToDifference = difference(10, 5) + 10;
 console.log(addTenToDifference);
+
+/////////////////////////////////////////////////////////////////////////////////
+
+// accessing an array, string is an array of characters
+
+let input = "mississippi";
+console.log(input[0]); // prints first letter
+console.log(input[10]); // prints last letter
+
+console.log("size of array is" + input.length)
+for(let i = 0; i < input.length; i++) {
+    console.log(input[i])
+}
